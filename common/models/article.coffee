@@ -52,8 +52,11 @@ schema = new mongoose.Schema
 
   # 点赞数
   like_num: Number
-
-  word_cloud: Array
+  
+  # 词频统计
+  wordfreqs:
+    type: Array
+    default: []
 
   updated_at:
     type: Date

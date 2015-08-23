@@ -47,8 +47,6 @@ schema = new mongoose.Schema
     type: Number
     default: 5
 
-  latest_collection_times:
-    type: Number
-    default: 5
-
 module.exports = db.model 'wechats', schema
+
+

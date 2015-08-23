@@ -24,7 +24,7 @@ exports.findCollectorGzh = (offset, limit) ->
   WechatDB.find()
   .lean()
   .where('is_collector').equals true
-  .select 'wechat_name wechat_id __biz latest_collection_times'
+  .select 'wechat_name wechat_id __biz'
   .sort 'collector_priority'
   .limit limit or 10
   .skip offset or 0

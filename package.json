@@ -12,11 +12,11 @@
     "mongoose": "3.6.x",
     "numeral": "^1.5.3",
     "require-dir": "^0.1.0",
-    "segment": "0.0.6",
     "superagent": "^0.21.0",
     "superagent-proxy": "git://github.com/jarvisaoieong/superagent-proxy",
     "underscore": "^1.7.0",
-    "underscore.string": "^2.4.0"
+    "underscore.string": "^2.4.0",
+    "wordfreq": "timdream/wordfreq"
   },
   "devDependencies": {
     "gulp": "^3.8.7",
